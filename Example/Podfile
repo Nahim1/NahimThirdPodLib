@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NahimThirdPodLib_Example' do
+  pod 'NahimThirdPodLib', :path => '../'
+
+  target 'NahimThirdPodLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
