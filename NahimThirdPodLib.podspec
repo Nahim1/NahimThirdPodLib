@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NahimThirdPodLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NahimThirdPodLib.'
+  s.summary          = 'This is summary for my third lib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'NahimThirdPodLib/Classes/**/*'
   
   # s.resource_bundles = {
